@@ -1,2 +1,6 @@
-# WaitingBoard-RecursionCS
-RecursionCS Reactコースの課題
+# ECommerce-React
+
+ReactでE Commerceサイトのサンプルを作成
+
+
+
