@@ -8,7 +8,6 @@ ReactでE Commerceサイトのサンプルを作成
 
 - Vite
 - TypeScript
-- Storybook
 - Atomic Design
 
 ## テストフレームワーク
