@@ -1,0 +1,23 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-icons {
+    display: flex;
+    margin-top: 40px;
+    gap:10px;
+    margin-right: 50px;
+}
+
+button{
+    height:50px;
+}
