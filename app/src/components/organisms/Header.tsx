@@ -1,7 +1,7 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { SlPeople } from "react-icons/sl";
 import "./Header.css";
-import IconButton from "./components/atoms/IconButton";
+import IconButton from "../atoms/IconButton";
 
 export default function Header() {
     return (
