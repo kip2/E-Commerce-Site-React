@@ -1,7 +1,6 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { SlPeople } from "react-icons/sl";
 import "./Header.css";
-// import IconButton from "../atoms/IconButton";
 import IconButtons from "../molecules/IconButtons";
 
 export default function Header() {
