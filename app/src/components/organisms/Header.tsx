@@ -1,7 +1,8 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { SlPeople } from "react-icons/sl";
 import "./Header.css";
-import IconButton from "../atoms/IconButton";
+// import IconButton from "../atoms/IconButton";
+import IconButtons from "../molecules/IconButtons";
 
 export default function Header() {
     return (
@@ -11,8 +12,14 @@ export default function Header() {
                     <h1>Electric Commerce</h1>
                 </div>
                 <div className="header-icons">
-                    <IconButton icon={<FaShoppingCart color="black" size={30}/>} />
-                    <IconButton icon={<SlPeople color="black" size={30}/>} />
+                    <IconButtons 
+                        leftIcon={
+                            <FaShoppingCart color="black" size={30}/>
+                        }
+                        rightIcon={
+                            <SlPeople color="black" size={30}/>
+                        }
+                    />
                 </div>
             </div>
         </>
