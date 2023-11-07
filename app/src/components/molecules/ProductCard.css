@@ -1,0 +1,48 @@
+.card {
+    width: 180px;
+    border: solid 2px #b4b4b4;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    transition: tarnsform 2s;;
+}
+
+.card:hover {
+    transform: scale(1.10);
+    filter: brightness(80%);
+    border-color: #94b5d8;
+}
+
+.popup {
+    display: none;
+    position:absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 10; 
+    color:#100000;
+}
+
+.card:hover .popup {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 0 0 #FFF, -2px 0 0 #FFF, 0 2px 0 #FFF, 0 -2px 0 #FFF;
+} 
+
+.price {
+    display: flex;
+    justify-content: end;
+    margin:0px
+}
+
+.name {
+    margin:0px
+}
