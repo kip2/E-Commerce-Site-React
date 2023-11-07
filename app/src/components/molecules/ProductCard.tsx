@@ -13,7 +13,9 @@ type ProductCard = {
 const leftIcon = <AiFillHeart color="black" size={20}/>
 const rightIcon = <FaCartPlus color="black" size={20}/>
 
+// todo: bookmark時の動作を追加
 const bookmarkButton = () => {}
+// todo: cartbutton押下時の動作を追加
 const addToCartButton = () => {}
 
 const ProductCard: React.FC<ProductCard> = ({ imgUrl, name, price, description }) => (
