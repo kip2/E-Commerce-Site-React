@@ -8,7 +8,7 @@ type IconButtonProps = {
     onRightButtonClick?: () => void;
 }
 
-const IconButtons: React.FC<IconButtonProps> = ({ leftIcon, rightIcon, onLeftButtonClick, onRightButtonClick }) => (
+const IconButtons: React.FC<IconButtonProps> = ({ leftIcon, rightIcon, onLeftButtonClick , onRightButtonClick }) => (
     <div className="icons">
         <IconButton
             icon={leftIcon}
