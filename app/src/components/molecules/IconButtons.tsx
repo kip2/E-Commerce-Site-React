@@ -1,4 +1,5 @@
-import IconButton from "../atoms/IconButton";
+import IconButton from "../atoms/IconButton"
+import "./IconButtons.css"
 
 type IconButtonProps = {
     leftIcon: React.ReactNode;
@@ -8,7 +9,7 @@ type IconButtonProps = {
 }
 
 const IconButtons: React.FC<IconButtonProps> = ({ leftIcon, rightIcon, onLeftButtonClick, onRightButtonClick }) => (
-    <>
+    <div className="icons">
         <IconButton
             icon={leftIcon}
             onClick={onLeftButtonClick}
@@ -17,7 +18,7 @@ const IconButtons: React.FC<IconButtonProps> = ({ leftIcon, rightIcon, onLeftBut
             icon={rightIcon}
             onClick={onRightButtonClick}
         />
-    </>
+    </div>
 );
 
 export default IconButtons;
