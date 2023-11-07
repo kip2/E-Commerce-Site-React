@@ -1,0 +1,13 @@
+.category {
+    border: solid 1px;
+    margin-top:100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}

@@ -1,4 +1,5 @@
 import ProductCard from "../molecules/ProductCard"
+import "./Category.css"
 
 type Products = {
     imgUrl: string
@@ -15,18 +16,20 @@ type Category = {
 export default function Category ({ category, products}: Category){
 
     return (
-        <div >
+        <div className="category">
             <h2>{category}</h2>
-            {
-                products.map((product, i) => {
-                    return (
-                        <ProductCard 
-                            key={i}
-                            {...product}
-                        />
-                    )
-                })
-            }
+            <div className="container">
+                {
+                    products.map((product, i) => {
+                        return (
+                            <ProductCard 
+                                key={i}
+                                {...product}
+                            />
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 } 
