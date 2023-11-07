@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'sanitize.css'
 import Header from './components/organisms/Header'
-import Category from './components/organisms/Category'
+import Categories from './components/organisms/Categories'
 
 
 // todo: ProductCardの呼び出しをループにしてjsonから呼び出し処理をする
@@ -12,6 +12,6 @@ import Category from './components/organisms/Category'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Header />
-    <Category />
+    <Categories />
   </React.StrictMode>,
 )

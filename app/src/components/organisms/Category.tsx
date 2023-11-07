@@ -1,16 +1,32 @@
-import ProductCard from "../molecules/ProductCard";
+import ProductCard from "../molecules/ProductCard"
 
-const json = { 
-    "name": "Cyber Workstation",
-    "imgUrl": "../../img/desktop1.png",
-    "price": 130896,
-    "description": "このデスクトップは、プロフェッショナルな映像編集や3Dレンダリングのために特別に設計されました。最新の高速プロセッサーと大容量のRAMを搭載しており、複雑なタスクでもスムーズに対応します。"
+type Products = {
+    imgUrl: string
+    name: string
+    price: number
+    description: string
 }
 
-const Category = () => (
-    <ProductCard
-        {...json}
-    />
-)
+type Category = {
+    category: string
+    products: Products[]
+}
 
-export default Category
+export default function Category ({ category, products}: Category){
+
+    return (
+        <div >
+            <h2>{category}</h2>
+            {
+                products.map((product, i) => {
+                    return (
+                        <ProductCard 
+                            key={i}
+                            {...product}
+                        />
+                    )
+                })
+            }
+        </div>
+    )
+} 
