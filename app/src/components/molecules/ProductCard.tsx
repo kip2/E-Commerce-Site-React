@@ -8,16 +8,15 @@ type ProductCard = {
     name: string
     price: number
     description: string
-    leftIcon: React.ReactNode;
-    onLeftButtonClick?: () => void;
-    rightIcon: React.ReactNode;
-    onRightButtonClick?: () =>  void;
 }
 
 const leftIcon = <AiFillHeart color="black" size={20}/>
 const rightIcon = <FaCartPlus color="black" size={20}/>
 
-const ProductCard: React.FC<ProductCard> = ({ imgUrl, name, price, description, onLeftButtonClick, onRightButtonClick}) => (
+const bookmarkButton = () => {}
+const addToCartButton = () => {}
+
+const ProductCard: React.FC<ProductCard> = ({ imgUrl, name, price, description }) => (
     <div className="card">
         <img src={imgUrl} />
         <p className="name">{name}</p>
@@ -28,8 +27,8 @@ const ProductCard: React.FC<ProductCard> = ({ imgUrl, name, price, description, 
         <IconButtons
             leftIcon={leftIcon}
             rightIcon={rightIcon}
-            onLeftButtonClick={onLeftButtonClick}
-            onRightButtonClick={onRightButtonClick}
+            onLeftButtonClick={bookmarkButton}
+            onRightButtonClick={addToCartButton}
         />
     </div>
 );
