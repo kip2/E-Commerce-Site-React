@@ -5,6 +5,9 @@
     padding: 20px;
     margin: 10px;
     transition: tarnsform 2s;;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 
 .card:hover {
