@@ -1,6 +1,5 @@
-const menus = ["read", "blue", "green"]
 
-const PulldownMenu = () => {
+const PulldownMenu = ({menus}) => {
     return (
         <>
             <select>
