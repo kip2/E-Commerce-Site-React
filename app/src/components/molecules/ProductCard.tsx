@@ -23,7 +23,7 @@ const ProductCard: React.FC<ProductCard> = ({ name, imgUrl, price, description }
     <div className="card">
         <img src={imgUrl} />
         <p className="name">{name}</p>
-        <p className="price">{price}</p>
+        <p className="price">{price}~</p>
         <div className="popup" hidden>
             {description}
         </div>
