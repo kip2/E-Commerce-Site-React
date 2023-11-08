@@ -1,5 +1,4 @@
-
-const PulldownMenu = ({menus}) => {
+export default function PulldownMenu ( menus: string[] ) {
     return (
         <>
             <select>
@@ -9,7 +8,4 @@ const PulldownMenu = ({menus}) => {
             </select>
         </>
     )
-
 }
-
-export default PulldownMenu
