@@ -1,4 +1,5 @@
 import PulldownMenu from "../atoms/PulldownMenu"
+import "./PulldownMenus.css"
 
 type PulldownMenusProps = {
     label1: string
@@ -10,14 +11,16 @@ type PulldownMenusProps = {
 const PulldownMenus: React.FC<PulldownMenusProps> = ({ label1, menus1, label2 ,menus2 }) => {
     return (
         <div>
-            <PulldownMenu 
-                label={label1}
-                menus={menus1}
-            />
-            <PulldownMenu
-                label={label2}
-                menus={menus2}
-            />
+            <div className="pulldown-menus">
+                <PulldownMenu 
+                    label={label1}
+                    menus={menus1}
+                />
+                <PulldownMenu
+                    label={label2}
+                    menus={menus2}
+                />
+            </div>
         </div>
     )
 }

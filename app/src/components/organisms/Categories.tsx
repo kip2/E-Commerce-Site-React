@@ -6,7 +6,7 @@ export default function Categories() {
     const [data] = useState(productList)
 
     return (
-        <>
+        <section className="categories">
             {
                 data.map((products, i) => {
                     return <Category 
@@ -15,7 +15,7 @@ export default function Categories() {
                             products={products.products}/>
                 })
             }
-        </>
+        </section>
     )
 
 }

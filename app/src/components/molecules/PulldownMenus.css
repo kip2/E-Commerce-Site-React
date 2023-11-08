@@ -1,0 +1,5 @@
+.pulldown-menus {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+}
