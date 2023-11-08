@@ -8,8 +8,9 @@ export default function Categories() {
     return (
         <>
             {
-                data.map(products => {
+                data.map((products, i) => {
                     return <Category 
+                            key={i}
                             category={products.category}
                             products={products.products}/>
                 })
