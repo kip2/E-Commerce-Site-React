@@ -24,7 +24,6 @@ const ProductCard: React.FC<ProductCard> = ({ name, imgUrl, price, description }
         <p className="name">{name}</p>
         <p className="price">{price}~</p>
         <div className="popup" hidden>
-            {description}
         </div>
         <IconButtons
             leftIcon={leftIcon}
