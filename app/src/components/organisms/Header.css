@@ -1,13 +1,18 @@
 .header {
     width: 100vw;
-    height: 1em;
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
 }
 
 .header-text {
-    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
     text-align: center;
 }
 

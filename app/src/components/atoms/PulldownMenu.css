@@ -1,6 +1,11 @@
 .pulldown-menu {
     display: block;
+    align-items: flex-start;
     width: 50px;
+}
+
+.select-block{
+    display: block;
 }
 
 select {
