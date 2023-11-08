@@ -1,4 +1,8 @@
-export default function PulldownMenu ( menus: string[] ) {
+type PulldownMenuProps = {
+    menus: string[]
+}
+
+const PulldownMenu: React.FC<PulldownMenuProps> = ({ menus }) => {
     return (
         <>
             <select>
@@ -9,3 +13,5 @@ export default function PulldownMenu ( menus: string[] ) {
         </>
     )
 }
+
+export default PulldownMenu
