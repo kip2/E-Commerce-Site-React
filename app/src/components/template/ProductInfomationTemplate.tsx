@@ -1,7 +1,7 @@
 import Header from "../organisms/Header";
 import InformationCard from "../molecules/InfomationCard";
 import InformationMenu from "../organisms/InformationMenu";
-import "./ProductInformation.css"
+import "./ProductInformationTemplate.css"
 
 type ProductInformationTemplateProps = {
 
@@ -16,7 +16,7 @@ const data = {
 
 const ProductInformationTemplate: React.FC<ProductInformationTemplateProps> = () => {
     return (
-        <>
+        <div className="outer">
             <Header/>
             <div className="information">
                 <InformationCard 
@@ -27,7 +27,7 @@ const ProductInformationTemplate: React.FC<ProductInformationTemplateProps> = ()
                     price={data.price}
                 />
             </div>
-        </>
+        </div>
     )
 }
 
