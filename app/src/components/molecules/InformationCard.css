@@ -1,0 +1,33 @@
+.card {
+    width: 70%;
+    border: solid 2px #b4b4b4;
+    border-radius: 8px;
+    padding: 50px 50px 20px 50px;
+    margin: 10px;
+    transition: tarnsform 2s;;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+}
+
+.name-and-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+    border: solid 2px #b4b4b4;
+    margin: 0 0 10px 10px;
+    padding: 20px;
+}

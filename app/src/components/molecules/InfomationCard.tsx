@@ -1,7 +1,7 @@
 import IconButtons from "./IconButtons"
 import { AiFillHeart} from "react-icons/ai"
 import { FaCartPlus } from "react-icons/fa"
-// import "./ProductCard.css"
+import "./InformationCard.css"
 
 type InformationCard = {
     imgUrl: string
@@ -21,9 +21,11 @@ const addToCartButton = () => {}
 const InformationCard: React.FC<InformationCard> = ({ name, imgUrl, price, description }) => (
     <div className="card">
         <img src={imgUrl} />
-        <p className="name">{name}</p>
-        <p className="price">{price}~</p>
-        <div className="">
+        <div className="name-and-price">
+            <p className="product-name">{name}</p>
+            <p>{price}円</p>
+        </div>
+        <div className="description">
             {description}
         </div>
         <IconButtons
