@@ -2,8 +2,8 @@ import ProductTemplate from "../template/ProductPageTemplate"
 
 // todo: sortとfilteringの内容を考える必要がある
 // todo: filterはカテゴリーの数だけ実装したいから、先に得たjsonデータからカテゴリーを配列に抜き出したい
-const sort = ["値段"]
-const filter = ["値段", "カテゴリー"]
+const sort = ["-","値段"]
+const filter = ["-", "値段", "カテゴリー"]
 
 export default function  ProductPage() {
     return (
