@@ -1,0 +1,12 @@
+.information-button {
+    height: 50px;
+    width: 25vw;
+    max-width: 150px;
+    margin: 2.3vw;
+    color: white;
+    background-color: blueviolet;
+}
+
+.information-button:hover {
+    background-color: rgb(114, 36, 188);
+}

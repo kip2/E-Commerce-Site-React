@@ -1,6 +1,7 @@
 import Header from "../organisms/Header";
 import InformationCard from "../molecules/InfomationCard";
-import Button from "../atoms/Button";
+import InformationMenu from "../organisms/InformationMenu";
+import "./ProductInformation.css"
 
 type ProductInformationTemplateProps = {
 
@@ -17,12 +18,12 @@ const ProductInformationTemplate: React.FC<ProductInformationTemplateProps> = ()
     return (
         <>
             <Header/>
-            <InformationCard 
-                {...data}
-            />
-            <Button 
-                caption={"Add Favorite"}
-            />
+            <div className="information">
+                <InformationCard 
+                    {...data}
+                />
+                <InformationMenu />
+            </div>
         </>
     )
 }

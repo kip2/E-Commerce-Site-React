@@ -1,4 +1,5 @@
 import Button from "../atoms/Button"
+import "./InformationMenu.css"
 
 type InformationMenuProps = {
 
@@ -14,18 +15,20 @@ const goCartPage= () => {}
 const InformationMenu: React.FC<InformationMenuProps> = () => {
     return (
         <>
-            <Button
-                caption={"Add Favorite"}
-                onButtonClick={addFavoriteClick}
-            />
-            <Button
-                caption={"Add Cart"}
-                onButtonClick={addCartClick}
-            />
-            <Button
-                caption={"Go Cart Page"}
-                onButtonClick={goCartPage}
-            />
+            <div className="buttons">
+                <Button
+                    caption={"Add Favorite"}
+                    onButtonClick={addFavoriteClick}
+                />
+                <Button
+                    caption={"Add Cart"}
+                    onButtonClick={addCartClick}
+                />
+                <Button
+                    caption={"Go Cart Page"}
+                    onButtonClick={goCartPage}
+                />
+            </div>
         </>
     )
 }
