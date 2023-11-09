@@ -3,7 +3,8 @@ import Calculation from "../molecules/Calculation"
 import "./InformationMenu.css"
 
 type InformationMenuProps = {
-
+    productName: string
+    price: number
 }
 
 // todo: あとで実装する
@@ -13,12 +14,12 @@ const addCartClick = () => {}
 // todo: あとで実装する
 const goCartPage= () => {}
 
-const InformationMenu: React.FC<InformationMenuProps> = () => {
+const InformationMenu: React.FC<InformationMenuProps> = ({productName, price}) => {
     return (
         <div className="information-menu">
-            <h3 className="information-menu-title">Product Name</h3>
+            <h3 className="information-menu-title">{productName}</h3>
             <Calculation
-                price={130896}
+                price={price}
             />
             <div className="buttons">
                 <Button

@@ -22,7 +22,10 @@ const ProductInformationTemplate: React.FC<ProductInformationTemplateProps> = ()
                 <InformationCard 
                     {...data}
                 />
-                <InformationMenu />
+                <InformationMenu 
+                    productName={data.name}
+                    price={data.price}
+                />
             </div>
         </>
     )
