@@ -17,7 +17,9 @@ const InformationMenu: React.FC<InformationMenuProps> = () => {
     return (
         <div className="information-menu">
             <h3 className="information-menu-title">Product Name</h3>
-            <Calculation/>
+            <Calculation
+                price={130896}
+            />
             <div className="buttons">
                 <Button
                     caption={"Add Favorite"}

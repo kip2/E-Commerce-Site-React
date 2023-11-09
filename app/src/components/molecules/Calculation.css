@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.calculation-input {
+    max-width: 100px;
+    text-align: right;
+    padding: 5px;
+}
