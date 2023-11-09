@@ -4,8 +4,11 @@ import './index.css'
 import 'sanitize.css'
 import ProductPage from './components/pages/ProductPage'
 
+import ProductInformationTemplate from './components/template/ProductInfomationTemplate'
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ProductPage />
+    {/* <ProductPage /> */}
+    <ProductInformationTemplate />
   </React.StrictMode>,
 )
