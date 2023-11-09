@@ -14,7 +14,8 @@ const goCartPage= () => {}
 
 const InformationMenu: React.FC<InformationMenuProps> = () => {
     return (
-        <>
+        <div className="information-menu">
+            <h3 className="information-menu-title">Product Name</h3>
             <div className="buttons">
                 <Button
                     caption={"Add Favorite"}
@@ -29,7 +30,7 @@ const InformationMenu: React.FC<InformationMenuProps> = () => {
                     onButtonClick={goCartPage}
                 />
             </div>
-        </>
+        </div>
     )
 }
 
