@@ -3,9 +3,10 @@
 }
 
 .information-menu-title {
+    font-size: 3.0vw;
     display: flex;
     justify-content: center;
-    margin: 40px 2.0vw;
+    margin: 20px 2.0vw;
 }
 
 .information-menu {
