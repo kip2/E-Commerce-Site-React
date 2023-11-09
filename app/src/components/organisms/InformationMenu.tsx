@@ -1,4 +1,5 @@
 import Button from "../atoms/Button"
+import Calculation from "../molecules/Calculation"
 import "./InformationMenu.css"
 
 type InformationMenuProps = {
@@ -16,6 +17,7 @@ const InformationMenu: React.FC<InformationMenuProps> = () => {
     return (
         <div className="information-menu">
             <h3 className="information-menu-title">Product Name</h3>
+            <Calculation/>
             <div className="buttons">
                 <Button
                     caption={"Add Favorite"}

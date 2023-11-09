@@ -1,0 +1,4 @@
+.unit-price {
+    display: flex;
+    justify-content: space-between;
+}
