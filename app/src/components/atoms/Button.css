@@ -1,8 +1,7 @@
 .information-button {
     height: 50px;
-    width: 20vw;
-    max-width: 150px;
-    margin: 20px 2.3vw;
+    width: 150px;
+    margin: 20px 10px 0 50px;
     color: white;
     background-color: blueviolet;
 }
