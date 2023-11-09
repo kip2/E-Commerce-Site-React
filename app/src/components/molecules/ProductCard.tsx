@@ -18,7 +18,7 @@ const bookmarkButton = () => {}
 // todo: cartbutton押下時の動作を追加
 const addToCartButton = () => {}
 
-const ProductCard: React.FC<ProductCard> = ({ name, imgUrl, price, description }) => (
+const ProductCard: React.FC<ProductCard> = ({ name, imgUrl, price }) => (
     <div className="card">
         <img src={imgUrl} />
         <p className="name">{name}</p>
