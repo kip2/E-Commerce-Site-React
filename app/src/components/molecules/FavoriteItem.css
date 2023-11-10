@@ -1,0 +1,24 @@
+.favorite-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.favorite-item::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #4c4c4c;
+    margin-top: 10px;
+}
+
+
+.favorite-item::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #4c4c4c;
+    margin-top: 10px;
+}
