@@ -1,4 +1,4 @@
-import "./Favorite.css"
+import "./FavoriteCard.css"
 import Title from "../atoms/Title"
 
 const FavoriteCard = () => {
