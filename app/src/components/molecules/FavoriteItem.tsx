@@ -6,6 +6,9 @@ type FavoriteItemProps = {
     price: number
 }
 
+const onClickCart = () => {}
+const onClickDelete = () => {}
+
 const FavoriteItem:React.FC<FavoriteItemProps> = ({ imgUrl, name, price }) => {
     return(
         <div className="favorite-outer">
@@ -17,10 +20,10 @@ const FavoriteItem:React.FC<FavoriteItemProps> = ({ imgUrl, name, price }) => {
                 <div className="price-and-button">
                     <p className="price">{price}円</p>
                     <div>
-                        <a>カートに追加する</a>
+                        <a href="#" onClick={onClickCart}>カートに追加する</a>
                     </div>
                     <div>
-                        <a>お気に入りから削除する</a>
+                        <a href="#" onClick={onClickDelete}>お気に入りから削除する</a>
                     </div>
                 </div>
             </div>
