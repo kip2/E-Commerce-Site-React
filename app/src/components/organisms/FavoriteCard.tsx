@@ -1,11 +1,12 @@
 import "./FavoriteCard.css"
 import Title from "../atoms/Title"
+import FavoriteCardItem from "../molecules/FavoriteCardItem"
 
 const FavoriteCard = () => {
     return (
         <div className="favorite-card">
             <Title title={"Favorite Items"}/>
-            <h1>FavoriteCard</h1>
+            <FavoriteCardItem />
         </div>
     )
 }
