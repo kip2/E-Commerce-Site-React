@@ -1,5 +1,6 @@
 import Header from "../organisms/Header";
 import Title from "../atoms/Title";
+import FavoriteCard from "../molecules/FavoriteCard";
 
 const FavoriteTemplate = () => {
     return (
@@ -8,6 +9,7 @@ const FavoriteTemplate = () => {
             <Title 
                 title={"Favorite Items"}
             />
+            <FavoriteCard />
         </>
     )
 }
