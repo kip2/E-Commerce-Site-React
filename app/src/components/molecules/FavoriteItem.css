@@ -1,24 +1,31 @@
 .favorite-item {
-    width: 100%;
-    height: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
-.favorite-item::before {
+.favorite-img-and-name {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-item img {
+    width: 40%;
+    border-radius: 3px;
+}
+
+.favorite-outer::after {
     content: '';
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #4c4c4c;
-    margin-top: 10px;
+    background-color: #b0afaf;
+    margin-top: 20px;
 }
 
-
-.favorite-item::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #4c4c4c;
-    margin-top: 10px;
+.price-and-button {
+    text-align: right;
+}
+.price-and-button p{
+    margin: 10px 0 ;
 }

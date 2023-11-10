@@ -8,13 +8,23 @@ type FavoriteItemProps = {
 
 const FavoriteItem:React.FC<FavoriteItemProps> = ({ imgUrl, name, price }) => {
     return(
-        <>
-            <div className="favorie-item">
-                <img src={imgUrl} />
-                <p className="name">{name}</p>
-                <p className="price">{price}~</p>
+        <div className="favorite-outer">
+            <div className="favorite-item">
+                <div className="favorite-img-and-name">
+                    <img src={imgUrl} />
+                    <p className="name">{name}</p>
+                </div>
+                <div className="price-and-button">
+                    <p className="price">{price}円</p>
+                    <div>
+                        <a>カートに追加する</a>
+                    </div>
+                    <div>
+                        <a>お気に入りから削除する</a>
+                    </div>
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 
