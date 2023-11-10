@@ -5,7 +5,9 @@ const FavoriteTemplate = () => {
     return (
         <>
             <Header />
-            <Title />
+            <Title 
+                title={"Favorite Items"}
+            />
         </>
     )
 }

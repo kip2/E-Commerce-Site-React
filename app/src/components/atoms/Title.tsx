@@ -1,6 +1,12 @@
-const Title = () => {
+import "./Title.css"
+
+type TitleProps = {
+    title: string
+}
+
+const Title:React.FC<TitleProps> = ({ title }) => {
     return(
-        <h3>Favorite Items</h3>
+        <h2 className="title-caption">{title}</h2>
     )
 }
 
