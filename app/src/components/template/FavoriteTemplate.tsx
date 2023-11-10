@@ -1,5 +1,5 @@
 import Header from "../organisms/Header";
-import FavoriteCard from "../organisms/FavoriteCard";
+import FavoriteCard from "../organisms/FavoriteItems";
 
 const FavoriteTemplate = () => {
     return (

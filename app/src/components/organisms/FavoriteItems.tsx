@@ -1,6 +1,6 @@
-import "./FavoriteCard.css"
+import "./FavoriteItems.css"
 import Title from "../atoms/Title"
-import FavoriteCardItem from "../molecules/FavoriteCardItem"
+import FavoriteCardItem from "../molecules/FavoriteItem"
 
 const FavoriteCard = () => {
     return (
