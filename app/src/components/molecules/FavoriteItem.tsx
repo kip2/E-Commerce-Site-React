@@ -6,7 +6,9 @@ type FavoriteItemProps = {
     price: number
 }
 
+// todo: 内部ロジックを後で追加する
 const onClickCart = () => {}
+// todo: 内部ロジックを後で追加する
 const onClickDelete = () => {}
 
 const FavoriteItem:React.FC<FavoriteItemProps> = ({ imgUrl, name, price }) => {
