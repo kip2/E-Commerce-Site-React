@@ -1,5 +1,7 @@
 .favorite-card {
-    border: solid 1px #000000;
-    padding: 50px;
-    margin:20px
+    border: solid 1px #b0afaf;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+    height: 50rem;
 }
