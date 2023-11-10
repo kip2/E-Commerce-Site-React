@@ -5,11 +5,13 @@ import 'sanitize.css'
 import ProductPage from './components/pages/ProductPage'
 import ProductInformationTemplate from './components/template/ProductInfomationTemplate'
 import FavoriteTemplate from './components/template/FavoriteTemplate'
+import Cart from './components/template/Cart'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* <ProductPage /> */}
     {/* <ProductInformationTemplate /> */}
-    <FavoriteTemplate />
+    {/* <FavoriteTemplate /> */}
+    <Cart />
   </React.StrictMode>,
 )
