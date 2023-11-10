@@ -17,7 +17,7 @@ const data = [
     }
 ]
 
-const FavoriteCard = () => {
+const FavoriteItems = () => {
     return (
         <div className="favorite-card">
             <Title title={"Favorite Items"}/>
@@ -38,4 +38,4 @@ const FavoriteCard = () => {
     )
 }
 
-export default FavoriteCard
+export default FavoriteItems

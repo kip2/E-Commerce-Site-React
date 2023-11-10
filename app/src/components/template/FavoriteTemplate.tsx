@@ -1,11 +1,11 @@
 import Header from "../organisms/Header";
-import FavoriteCard from "../organisms/FavoriteItems";
+import FavoriteItems from "../organisms/FavoriteItems";
 
 const FavoriteTemplate = () => {
     return (
         <>
             <Header />
-            <FavoriteCard />
+            <FavoriteItems />
         </>
     )
 }
