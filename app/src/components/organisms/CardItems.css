@@ -1,0 +1,15 @@
+.card-card {
+    display: block;
+    border: solid 1px #b0afaf;
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 960px;
+    margin: 0 auto 30px auto;
+    min-height: 60vh;
+}
+
+@media (max-width: 960px) {
+    .card-card{
+        margin: 0 40px 30px 40px;
+    }
+}
