@@ -9,5 +9,6 @@
 @media (max-width: 960px) {
     .order-field{
         margin: 0 40px 30px 40px;
+        gap:2rem;
     }
 }
