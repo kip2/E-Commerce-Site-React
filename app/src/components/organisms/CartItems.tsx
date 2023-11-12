@@ -1,6 +1,6 @@
-import "./CardItems.css"
+import "./CartItems.css"
 import Title from "../atoms/Title"
-import CartItem from "../molecules/CardItem"
+import CartItem from "../molecules/CartItem"
 
 // const data = [
 //     { 
@@ -28,8 +28,8 @@ const data = [
 
 const CartItems = () => {
     return (
-        <div className="card-card">
-            <Title title={"Card Items"}/>
+        <div className="cart-cart">
+            <Title title={"cart Items"}/>
             <div>
                 {
                     data.map((item) => {

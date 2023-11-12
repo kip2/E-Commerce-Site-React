@@ -1,6 +1,6 @@
-import "./CardItem.css"
+import "./CartItem.css"
 
-type CardItemProps = {
+type CartItemProps = {
     imgUrl: string
     name: string
     price: number
@@ -11,7 +11,7 @@ const onClickCart = () => {}
 // todo: 内部ロジックを後で追加する
 const onClickDelete = () => {}
 
-const CardItem:React.FC<CardItemProps> = ({ imgUrl, name, price }) => {
+const CartItem:React.FC<CartItemProps> = ({ imgUrl, name, price }) => {
     return(
         <div className="card-outer">
             <div className="card-item">
@@ -33,4 +33,4 @@ const CardItem:React.FC<CardItemProps> = ({ imgUrl, name, price }) => {
     )
 }
 
-export default CardItem
+export default CartItem

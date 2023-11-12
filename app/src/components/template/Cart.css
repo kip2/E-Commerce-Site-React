@@ -1,5 +1,13 @@
 .order-field {
     display: flex;
-    justify-content: space-between;
+    gap: 7rem;
+    max-width: 960px;
+    margin: 0 auto 30px auto;
 }
 
+
+@media (max-width: 960px) {
+    .order-field{
+        margin: 0 40px 30px 40px;
+    }
+}
