@@ -1,5 +1,5 @@
 import Button from "../atoms/Button"
-import Calculation from "../molecules/Calculation"
+import CartCalculation from "../molecules/CartCalculation"
 import "./CartMenu.css"
 
 type CartMenuProps = {
@@ -12,7 +12,8 @@ const addPurchaseClick = () => {}
 const CartMenu: React.FC<CartMenuProps> = ({price}) => {
     return (
         <div className="cart-menu">
-            <Calculation
+            <CartCalculation
+                pieces={1}
                 price={price}
             />
             <div className="buttons">
