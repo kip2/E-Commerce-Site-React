@@ -4,6 +4,12 @@
     border-radius: 5px;
     padding: 30px;
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto 30px auto;
     min-height: 60vh;
+}
+
+@media (max-width: 960px) {
+    .favorite-card{
+        margin: 0 40px 30px 40px;
+    }
 }
