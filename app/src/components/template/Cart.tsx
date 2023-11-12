@@ -1,11 +1,12 @@
 import Header from "../organisms/Header"
 import FavoriteItems from "../organisms/FavoriteItems"
+import CartItems from "../organisms/CartItems"
 
 const Cart = () => {
     return(
         <>
             <Header />
-            <h1>Cart Page</h1>
+            <CartItems />
             <FavoriteItems />
         </>
     )
