@@ -1,6 +1,6 @@
 .order-field {
     display: flex;
-    gap: 7rem;
+    justify-content: space-between;
     max-width: 960px;
     margin: 0 auto 30px auto;
 }
