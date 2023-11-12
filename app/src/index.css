@@ -8,6 +8,22 @@
 
 }
 
+div {
+  display: block;
+}
+
+a {
+  display: block;
+}
+
+body {
+  display: block;
+}
+
+h1 {
+  display: block;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -17,12 +33,17 @@ a:hover {
   color: #535bf2;
 }
 
+* {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
-  display: flex;
+  display: block;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 h1 {

@@ -5,7 +5,7 @@ import IconButtons from "../molecules/IconButtons";
 
 export default function Header() {
     return (
-        <>
+        <section className="header-outer">
             <div className="header">
                 <div className="header-text">
                     <h1>Electric Commerce</h1>
@@ -21,6 +21,6 @@ export default function Header() {
                     />
                 </div>
             </div>
-        </>
+        </section>
     );
 }

@@ -1,16 +1,20 @@
 .header {
+    top: 0;
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
-    margin: 30px 0px;
+    padding: 25px 0;
+    margin: auto;
+    background-color: white;
+    z-index: 100;
 }
 
 .header-text {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: auto;
 }
 
 h1{
