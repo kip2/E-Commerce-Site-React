@@ -9,6 +9,8 @@ type CartMenuProps = {
 // todo: あとで実装する
 const addPurchaseClick = () => {}
 
+// todo: piecesはハードコードしているので、stateを渡すこと
+
 const CartMenu: React.FC<CartMenuProps> = ({price}) => {
     return (
         <div className="cart-menu">
