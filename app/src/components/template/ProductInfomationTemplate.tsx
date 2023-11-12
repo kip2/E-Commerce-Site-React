@@ -1,5 +1,5 @@
 import Header from "../organisms/Header";
-import InformationCard from "../molecules/InfomationCard";
+import InformationCard from "../molecules/InformationCard";
 import InformationMenu from "../organisms/InformationMenu";
 import "./ProductInformationTemplate.css"
 

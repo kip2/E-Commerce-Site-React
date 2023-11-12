@@ -17,6 +17,7 @@ const data = [
     }
 ]
 
+
 const FavoriteItems = () => {
     return (
         <div className="favorite-card">

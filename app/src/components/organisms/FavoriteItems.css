@@ -3,6 +3,7 @@
     border: solid 1px #b0afaf;
     border-radius: 5px;
     padding: 30px;
-    margin: 20px;
-    height: 50em;
+    max-width: 960px;
+    margin: auto;
+    min-height: 70vh;
 }
