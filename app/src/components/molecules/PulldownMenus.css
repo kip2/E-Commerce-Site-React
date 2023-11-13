@@ -3,3 +3,8 @@
     display: flex;
     justify-content: end;
 }
+
+.pulldown-outer {
+    display: block;
+    height: 5rem;
+}
