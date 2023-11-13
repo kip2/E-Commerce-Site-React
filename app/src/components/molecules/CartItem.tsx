@@ -27,7 +27,10 @@ const CartItem:React.FC<CartItemProps> = ({ imgUrl, name, price }) => {
                         menus={menus}
                     />
                     <div>
-                        <a href="#" onClick={onClickDelete}>カートから削除する</a>
+                        <a 
+                            href="#"
+                            className="block"
+                            onClick={onClickDelete}>カートから削除する</a>
                     </div>
                 </div>
             </div>

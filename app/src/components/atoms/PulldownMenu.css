@@ -1,9 +1,13 @@
 .pulldown-menu {
     width: 6rem;
-    margin-right: 70px;
+    /* margin-right: 70px; */
 }
 
 select {
     width: 100%;
     height: 70%;
+}
+
+.slect-block {
+    display: block;
 }

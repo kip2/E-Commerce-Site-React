@@ -7,7 +7,7 @@ type PulldownMenuProps = {
 
 const PulldownMenu: React.FC<PulldownMenuProps> = ({ label, menus }) => {
     return (
-        <div className="pulldown-menu d-flex">
+        <div className="pulldown-menu">
             <label>{label}</label>
             <select className="select-block">
                 {menus.map((menu) => {
