@@ -1,6 +1,6 @@
 .pulldown-menu {
     display: flex;
-    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 select {

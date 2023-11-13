@@ -23,7 +23,7 @@ const CartItem:React.FC<CartItemProps> = ({ imgUrl, name, price }) => {
                 <div className="price-and-button">
                     <p className="price">{price}円</p>
                     <PulldownMenu
-                        label={"数量："}
+                        label={"数量"}
                         menus={menus}
                     />
                     <div>
