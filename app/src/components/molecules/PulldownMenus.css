@@ -3,6 +3,7 @@
     display: flex;
     justify-content: end;
     padding-top: 2rem;
+    padding-right: 4rem;
 }
 
 .pulldown-outer {
