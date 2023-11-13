@@ -2,12 +2,12 @@ import "./PulldownMenu.css"
 
 type PulldownMenuProps = {
     label: string
-    menus: string[]
+    menus: string[] | number[]
 }
 
 const PulldownMenu: React.FC<PulldownMenuProps> = ({ label, menus }) => {
     return (
-        <div className="pulldown-menu">
+        <div className="pulldown-menu d-flex">
             <label>{label}</label>
             <select className="select-block">
                 {menus.map((menu) => {

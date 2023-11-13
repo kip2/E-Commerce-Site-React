@@ -1,0 +1,6 @@
+.span-space {
+    box-sizing: inherit;
+    display: block;
+    height: 5rem;
+    flex-shrink: 0;
+}

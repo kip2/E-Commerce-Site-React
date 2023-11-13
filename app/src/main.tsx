@@ -9,9 +9,9 @@ import Cart from './components/template/Cart'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    {/* <ProductPage /> */}
+    <ProductPage />
     {/* <ProductInformationTemplate /> */}
     {/* <FavoriteTemplate /> */}
-    <Cart />
+    {/* <Cart /> */}
   </React.StrictMode>,
 )

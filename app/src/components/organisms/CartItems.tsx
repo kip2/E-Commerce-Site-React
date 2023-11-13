@@ -29,7 +29,7 @@ const data = [
 const CartItems = () => {
     return (
         <div className="cart-cart">
-            <Title title={"cart Items"}/>
+            <Title title={"Cart"}/>
             <div>
                 {
                     data.map((item) => {
