@@ -19,7 +19,7 @@ const bookmarkButton = () => {}
 const addToCartButton = () => {}
 
 const InformationCard: React.FC<InformationCard> = ({ name, imgUrl, price, description }) => (
-    <div className="card">
+    <div className="information-card">
         <img src={imgUrl} />
         <div className="name-and-price">
             <p className="product-name">{name}</p>
