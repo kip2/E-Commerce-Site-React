@@ -2,8 +2,21 @@ import { FaShoppingCart } from "react-icons/fa";
 import { SlPeople } from "react-icons/sl";
 import "./Header.css";
 import IconButtons from "../molecules/IconButtons";
+import { useNavigate } from "react-router-dom";
+
 
 export default function Header() {
+
+    const onLeftButtonClick = () => {
+        navigate("/cart");
+    }
+
+    const onRightButtonClick = () => {
+        navigate("/favorite");
+    }
+
+    const navigate = useNavigate()
+
     return (
         <section className="header-outer">
             <div className="header">
@@ -18,6 +31,8 @@ export default function Header() {
                         rightIcon={
                             <SlPeople color="black" size={30}/>
                         }
+                        onLeftButtonClick={onLeftButtonClick}
+                        onRightButtonClick={onRightButtonClick}
                     />
                 </div>
             </div>

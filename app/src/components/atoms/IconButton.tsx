@@ -6,7 +6,8 @@ type IconButtonProps = {
 }
 
 const IconButton: React.FC<IconButtonProps> = ({ icon, onClick }) => (
-    <button onClick={onClick}>
+    <button 
+        onClick={onClick}>
         {icon}
     </button>
 
