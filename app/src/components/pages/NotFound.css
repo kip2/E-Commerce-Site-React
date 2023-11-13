@@ -1,0 +1,25 @@
+.not-found-outer{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.not-found-message {
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-message h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.not-found-message p {
+    font-size: 20px;
+    color: #666;
+}
