@@ -14,11 +14,11 @@ const menus = [1,2,3,4,5,6,7,8,9,10]
 
 const CartItem:React.FC<CartItemProps> = ({ imgUrl, name, price }) => {
     return(
-        <div className="card-outer">
-            <div className="card-item">
-                <div className="card-img-and-name">
+        <div className="cart-card-outer">
+            <div className="cart-card-item">
+                <div className="cart-card-img-and-name">
                     <img src={imgUrl} />
-                    <p className="card-name">{name}</p>
+                    <p className="cart-card-name">{name}</p>
                 </div>
                 <div className="price-and-button">
                     <p className="price">{price}円</p>
