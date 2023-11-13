@@ -2,9 +2,11 @@
     width: 100vw;
     display: flex;
     justify-content: end;
+    padding-top: 2rem;
 }
 
 .pulldown-outer {
+    max-width: 960px;
     display: block;
     height: 5rem;
 }
