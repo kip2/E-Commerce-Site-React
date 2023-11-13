@@ -2,7 +2,7 @@ import Header from "../organisms/Header"
 import FavoriteItems from "../organisms/FavoriteItems"
 import CartItems from "../organisms/CartItems"
 import CartMenu from "../organisms/CartMenu"
-import "./Cart.css"
+import "./CartTemplate.css"
 
 const cartDummyData = { 
         "name": "Home Essemtial PC",
@@ -11,7 +11,7 @@ const cartDummyData = {
         "description": "家庭用として最適なこのデスクトップは、日常の業務や学習、エンターテインメントに適しています。コンパクトなデザインと手頃な価格で、あらゆるユーザーにおすすめです。"
 }
 
-const Cart = () => {
+const CartTemplate = () => {
     return(
         <>
             <Header />
@@ -26,4 +26,4 @@ const Cart = () => {
     )
 }
 
-export default Cart
+export default CartTemplate
