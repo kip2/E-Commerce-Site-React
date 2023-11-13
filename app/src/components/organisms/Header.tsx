@@ -6,6 +6,11 @@ import { useNavigate } from "react-router-dom";
 
 
 export default function Header() {
+    const navigate = useNavigate()
+
+    const onHeaderTitleClick = () => {
+        navigate("/");
+    }
 
     const onLeftButtonClick = () => {
         navigate("/cart");
@@ -15,13 +20,11 @@ export default function Header() {
         navigate("/favorite");
     }
 
-    const navigate = useNavigate()
-
     return (
         <section className="header-outer">
             <div className="header">
                 <div className="header-text">
-                    <h1>Electric Commerce</h1>
+                    <h1><a onClick={onHeaderTitleClick}>Electric Commerce</a></h1>
                 </div>
                 <div className="header-icons">
                     <IconButtons 

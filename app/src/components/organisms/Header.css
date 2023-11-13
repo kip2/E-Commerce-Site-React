@@ -18,6 +18,15 @@
     margin: auto;
 }
 
+.header-text a {
+    color: inherit;
+}
+
+.header-text a:hover{
+    color: rgb(87, 85, 85);
+}
+
+
 h1{
     text-align: center;
     font-size: 2.5rem;
