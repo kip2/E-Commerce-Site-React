@@ -28,7 +28,7 @@ const data = [
 
 const CartItems = () => {
     return (
-        <div className="cart-cart">
+        <div className="cart-card">
             <Title title={"Cart"}/>
             <div>
                 {
