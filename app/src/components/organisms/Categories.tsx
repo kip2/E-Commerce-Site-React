@@ -1,9 +1,10 @@
-import { useState } from "react"
 import Category from "./Category";
-import productList from "../../json/productList.json"
+import { useContext } from "react";
+import { ProductContext } from "../App";
+
 
 export default function Categories() {
-    const [data] = useState(productList)
+    const data = useContext(ProductContext)
 
     return (
         <section className="categories">
