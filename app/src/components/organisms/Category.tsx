@@ -2,6 +2,7 @@ import ProductCard from "../molecules/ProductCard"
 import "./Category.css"
 
 type Products = {
+    id: number
     imgUrl: string
     name: string
     price: number
@@ -20,10 +21,9 @@ export default function Category ({ category, products}: Category){
             <h2>{category}</h2>
             <div className="container">
                 {
-                    products.map((product, i) => {
+                    products.map((product) => {
                         return (
                             <ProductCard 
-                                key={i}
                                 {...product}
                             />
                         )

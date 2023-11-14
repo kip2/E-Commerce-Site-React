@@ -10,7 +10,8 @@ export default function App() {
         <>
             <Routes>
                 <Route path="/" element={<ProductPage />}/>
-                <Route path="/information" element={<ProductInformationPage />}/>
+                {/* <Route path="/information" element={<ProductInformationPage />}/> */}
+                <Route path="/information/:id" element={<ProductInformationPage />}/>
                 <Route path="/favorite" element={<FavoritePage />}/>
                 <Route path="/cart" element={<CartPage />}/>
                 <Route path="*" element={<NotFoundPage/>}/>

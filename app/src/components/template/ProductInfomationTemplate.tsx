@@ -8,6 +8,7 @@ type ProductInformationTemplateProps = {
 }
 
 const data = { 
+    "id": 1,
     "name": "Cyber Workstation",
     "imgUrl": "./img/desktop1.png",
     "price": 130896,

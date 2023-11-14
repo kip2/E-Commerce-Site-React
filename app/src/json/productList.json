@@ -3,24 +3,28 @@
         "category": "Desktop PC",
         "products": [
             { 
+                "id": 1,
                 "name": "Cyber Workstation",
                 "imgUrl": "./img/desktop1.png",
                 "price": 130896,
                 "description": "このデスクトップは、プロフェッショナルな映像編集や3Dレンダリングのために特別に設計されました。最新の高速プロセッサーと大容量のRAMを搭載しており、複雑なタスクでもスムーズに対応します。"
             },
             { 
+                "id": 2,
                 "name": "Home Essemtial PC",
                 "imgUrl": "./img/desktop2.png",
                 "price": 132364,
                 "description": "家庭用として最適なこのデスクトップは、日常の業務や学習、エンターテインメントに適しています。コンパクトなデザインと手頃な価格で、あらゆるユーザーにおすすめです。"
             },
             { 
+                "id": 3,
                 "name": "Gamers Paradise Desktop",
                 "imgUrl": "./img/desktop3.png",
                 "price": 174552,
                 "description": "真のゲーマーのためのマシン。最新のグラフィックカードと高速なSSDを搭載し、最も要求の厳しいゲームも高解像度でフレーム落ちすることなくプレイできます。"
             },
             { 
+                "id": 4,
                 "name": "Office Elite PC",
                 "imgUrl": "./img/desktop4.png",
                 "price": 169765,
@@ -32,24 +36,28 @@
         "category": "Laptop PC",
         "products": [
             { 
+                "id": 5,
                 "name": "Ultra Slim Traveler",
                 "imgUrl": "./img/laptop1.png",
                 "price": 70952,
                 "description": "超薄型のデザインで、出張や旅行時の携帯性を追求したこのラップトップは、軽さと高性能を併せ持っています。フルHDディスプレイと長持ちするバッテリーで、どこでも作業が可能です。"
             },
             { 
+                "id": 6,
                 "name": "Student Companion",
                 "imgUrl": "./img/laptop2.png",
                 "price": 74426,
                 "description": "学生の必要に応えるために設計されたこのラップトップは、オンライン授業やリサーチ、レポート作成に最適。堅牢なボディと予算に優しい価格が魅力です。"
             },
             { 
+                "id": 7,
                 "name": "Game Enthusiast Note",
                 "imgUrl": "./img/laptop3.png",
                 "price": 104330,
                 "description": "高性能のグラフィックスと冷却システムを備えたこのラップトップは、ゲーマーのための特別な一台。迫力のゲーム体験を移動中も楽しむことができます。"
             },
             { 
+                "id": 8,
                 "name": "Business Elite Note",
                 "imgUrl": "./img/laptop4.png",
                 "price": 110951,
@@ -61,24 +69,28 @@
         "category": "Tablet PC",
         "products": [
             { 
+                "id": 9,
                 "name": "Epic Slate",
                 "imgUrl": "./img/tablet1.png",
                 "price": 69461,
                 "description": "多機能性を追求したこのタブレットは、ビジネスからエンターテイメントまでのさまざまなシーンでの使用を想定しています。鮮やかなディスプレイと高速なプロセッサーで、滑らかな操作を実現します。"
             },
             { 
+                "id": 10,
                 "name": "Vivid Voyager",
                 "imgUrl": "./img/tablet2.png",
                 "price": 82705,
                 "description": "旅行好きのためのタブレット。コンパクトながらも高解像度のカメラと長時間持続するバッテリーを搭載し、旅の思い出をきれいに残すことができます。"
             },
             { 
+                "id": 11,
                 "name": "Artistic Aegis",
                 "imgUrl": "./img/tablet3.png",
                 "price": 77595,
                 "description": "クリエイター向けにデザインされたこのタブレットは、筆圧に対応したペンとの相性が抜群。デジタルアートやノート取りにも最適です。"
             },
             { 
+                "id": 12,
                 "name": "Family Focus",
                 "imgUrl": "./img/tablet4.png",
                 "price": 91165,
@@ -90,18 +102,21 @@
         "category": "Smart Phone",
         "products": [
             { 
+                "id": 13,
                 "name": "Prime Pixel",
                 "imgUrl": "./img/phone1.png",
                 "price": 90302,
                 "description": "薄く、軽量で持ち運びに便利。高解像度カメラを搭載し、日常の瞬間を美しくキャッチ。最新のセキュリティ機能も充実しており、安心してご利用いただけます。"
             },
             { 
+                "id": 14,
                 "name": "Fusion Flex",
                 "imgUrl": "./img/phone2.png",
                 "price": 54450,
                 "description": "曲がるディスプレイ技術を採用し、従来のスマートフォンの枠を超えた新しい体験を提供。映画や動画視聴も一段と楽しくなります。"
             },
             { 
+                "id": 15,
                 "name": "Sound Seeker",
                 "imgUrl": "./img/phone3.png",
                 "price": 62255,
