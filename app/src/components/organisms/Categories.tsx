@@ -9,11 +9,11 @@ export default function Categories() {
     return (
         <section className="categories">
             {
-                data.map((products, i) => {
+                data.map((category, i) => {
                     return <Category 
                             key={i}
-                            category={products.category}
-                            products={products.products}/>
+                            category={category.category}
+                            products={category.products}/>
                 })
             }
         </section>
