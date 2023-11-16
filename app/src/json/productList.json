@@ -2,7 +2,7 @@
     { 
         "id": 1,
         "name": "Cyber Workstation",
-        "imgUrl": "./img/desktop1.png",
+        "imgUrl": "../img/desktop1.png",
         "price": 130896,
         "description": "このデスクトップは、プロフェッショナルな映像編集や3Dレンダリングのために特別に設計されました。最新の高速プロセッサーと大容量のRAMを搭載しており、複雑なタスクでもスムーズに対応します。",
         "category": "Desktop PC"
@@ -10,7 +10,7 @@
     { 
         "id": 2,
         "name": "Home Essemtial PC",
-        "imgUrl": "./img/desktop2.png",
+        "imgUrl": "../img/desktop2.png",
         "price": 132364,
         "description": "家庭用として最適なこのデスクトップは、日常の業務や学習、エンターテインメントに適しています。コンパクトなデザインと手頃な価格で、あらゆるユーザーにおすすめです。",
         "category": "Desktop PC"
@@ -19,7 +19,7 @@
     { 
         "id": 3,
         "name": "Gamers Paradise Desktop",
-        "imgUrl": "./img/desktop3.png",
+        "imgUrl": "../img/desktop3.png",
         "price": 174552,
         "description": "真のゲーマーのためのマシン。最新のグラフィックカードと高速なSSDを搭載し、最も要求の厳しいゲームも高解像度でフレーム落ちすることなくプレイできます。",
         "category": "Desktop PC"
@@ -28,7 +28,7 @@
     { 
         "id": 4,
         "name": "Office Elite PC",
-        "imgUrl": "./img/desktop4.png",
+        "imgUrl": "../img/desktop4.png",
         "price": 169765,
         "description": "オフィス作業を迅速かつ効率的にこなすためのデスクトップ。複数のタスクを同時に処理するのに適した強力なマルチコアプロセッサーを搭載しており、ビジネスの生産性を高めます。",
         "category": "Desktop PC"
@@ -37,7 +37,7 @@
     { 
         "id": 5,
         "name": "Ultra Slim Traveler",
-        "imgUrl": "./img/laptop1.png",
+        "imgUrl": "../img/laptop1.png",
         "price": 70952,
         "description": "超薄型のデザインで、出張や旅行時の携帯性を追求したこのラップトップは、軽さと高性能を併せ持っています。フルHDディスプレイと長持ちするバッテリーで、どこでも作業が可能です。",
         "category": "Laptop PC"
@@ -46,7 +46,7 @@
     { 
         "id": 6,
         "name": "Student Companion",
-        "imgUrl": "./img/laptop2.png",
+        "imgUrl": "../img/laptop2.png",
         "price": 74426,
         "description": "学生の必要に応えるために設計されたこのラップトップは、オンライン授業やリサーチ、レポート作成に最適。堅牢なボディと予算に優しい価格が魅力です。",
         "category": "Laptop PC"
@@ -55,7 +55,7 @@
     { 
         "id": 7,
         "name": "Game Enthusiast Note",
-        "imgUrl": "./img/laptop3.png",
+        "imgUrl": "../img/laptop3.png",
         "price": 104330,
         "description": "高性能のグラフィックスと冷却システムを備えたこのラップトップは、ゲーマーのための特別な一台。迫力のゲーム体験を移動中も楽しむことができます。",
         "category": "Laptop PC"
@@ -64,7 +64,7 @@
     { 
         "id": 8,
         "name": "Business Elite Note",
-        "imgUrl": "./img/laptop4.png",
+        "imgUrl": "../img/laptop4.png",
         "price": 110951,
         "description": "ビジネスシーンでの高いパフォーマンスを求めるプロフェッショナルのためのラップトップ。セキュリティ機能が強化され、多忙な日常をサポートします。",
         "category": "Laptop PC"
@@ -73,7 +73,7 @@
     { 
         "id": 9,
         "name": "Epic Slate",
-        "imgUrl": "./img/tablet1.png",
+        "imgUrl": "../img/tablet1.png",
         "price": 69461,
         "description": "多機能性を追求したこのタブレットは、ビジネスからエンターテイメントまでのさまざまなシーンでの使用を想定しています。鮮やかなディスプレイと高速なプロセッサーで、滑らかな操作を実現します。",
         "category": "Tablet PC"
@@ -82,7 +82,7 @@
     { 
         "id": 10,
         "name": "Vivid Voyager",
-        "imgUrl": "./img/tablet2.png",
+        "imgUrl": "../img/tablet2.png",
         "price": 82705,
         "description": "旅行好きのためのタブレット。コンパクトながらも高解像度のカメラと長時間持続するバッテリーを搭載し、旅の思い出をきれいに残すことができます。",
         "category": "Tablet PC"
@@ -91,7 +91,7 @@
     { 
         "id": 11,
         "name": "Artistic Aegis",
-        "imgUrl": "./img/tablet3.png",
+        "imgUrl": "../img/tablet3.png",
         "price": 77595,
         "description": "クリエイター向けにデザインされたこのタブレットは、筆圧に対応したペンとの相性が抜群。デジタルアートやノート取りにも最適です。",
         "category": "Tablet PC"
@@ -100,7 +100,7 @@
     { 
         "id": 12,
         "name": "Family Focus",
-        "imgUrl": "./img/tablet4.png",
+        "imgUrl": "../img/tablet4.png",
         "price": 91165,
         "description": "家族全員が楽しめるタブレット。子供の学習アプリから、大人の読書や動画視聴まで、幅広い用途に応じた機能を搭載しています。",
         "category": "Tablet PC"
@@ -109,7 +109,7 @@
     { 
         "id": 13,
         "name": "Prime Pixel",
-        "imgUrl": "./img/phone1.png",
+        "imgUrl": "../img/phone1.png",
         "price": 90302,
         "description": "薄く、軽量で持ち運びに便利。高解像度カメラを搭載し、日常の瞬間を美しくキャッチ。最新のセキュリティ機能も充実しており、安心してご利用いただけます。",
         "category": "Smart Phone"
@@ -118,7 +118,7 @@
     { 
         "id": 14,
         "name": "Fusion Flex",
-        "imgUrl": "./img/phone2.png",
+        "imgUrl": "../img/phone2.png",
         "price": 54450,
         "description": "曲がるディスプレイ技術を採用し、従来のスマートフォンの枠を超えた新しい体験を提供。映画や動画視聴も一段と楽しくなります。",
         "category": "Smart Phone"
@@ -127,7 +127,7 @@
     { 
         "id": 15,
         "name": "Sound Seeker",
-        "imgUrl": "./img/phone3.png",
+        "imgUrl": "../img/phone3.png",
         "price": 62255,
         "description": "高品質のオーディオ技術を搭載した音楽愛好者向けのスマートフォン。クリアな音質で、お気に入りの音楽をいつでもどこでも楽しめます。",
         "category": "Smart Phone"
