@@ -1,19 +1,22 @@
 import Category from "./Category";
 import { useContext } from "react";
-import { ProductContext } from "../App";
+import { ProductContext, CategoryContext } from "../App";
 
 
 export default function Categories() {
-    const data = useContext(ProductContext)
+    const productList = useContext(ProductContext)
+    const categories = useContext(CategoryContext)
 
     return (
         <section className="categories">
             {
-                data.map((category, i) => {
+                categories.map((category, i) => {
                     return <Category 
                             key={i}
-                            category={category.category}
-                            products={category.products}/>
+                            category={category}
+                            products={
+                                productList.filter(product => product.category === category)
+                            }/>
                 })
             }
         </section>

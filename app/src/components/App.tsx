@@ -9,6 +9,9 @@ import productList from "../json/productList.json"
 
 export const ProductContext = createContext(productList)
 
+export const CategoryContext = createContext(
+                                Array.from(new Set(productList.map(product => product.category))))
+
 export default function App() {
     return (
         <ProductContext.Provider value={productList}>
