@@ -23,7 +23,7 @@ const InformationCard: React.FC<InformationCard> = ({ name, imgUrl, price, descr
         <img src={imgUrl} />
         <div className="name-and-price">
             <p className="product-name">{name}</p>
-            <p className="product-price">{price}円</p>
+            <p className="product-price">{Intl.NumberFormat('ja-JP').format(price)}円</p>
         </div>
         <div className="description">
             {description}
