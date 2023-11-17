@@ -39,7 +39,7 @@ const ProductCard: React.FC<ProductCard> = ({ id, name, imgUrl, price }) => {
             >
                 {name}
             </p>
-            <p className="price">{Intl.NumberFormat('ja-JP', { style: 'currency', currency: 'JPY' }).format(price)}~</p>
+            <p className="price">{Intl.NumberFormat('ja-JP').format(price)}~</p>
             <IconButtons
                 leftIcon={leftIcon}
                 rightIcon={rightIcon}
